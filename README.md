@@ -7,6 +7,7 @@
  * João Victor Mendonça Martins - mendoncajoao2323@gmail.com
  * Lucas Martins Siqueira da Silva - lucasmartinss2003@gmail.com
  * João da Fonseca - joao@abc.com
+ * Thiago Diniz Cruz Ribeiro - thiago.diniz_ribeiro@hotmail.com
  * Daniel Tavares de Lima Marcelino
 danieltavareslima72@gmail.com
 
