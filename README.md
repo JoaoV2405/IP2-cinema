@@ -17,4 +17,4 @@ Exemplo de requisitos para um sistema de automação comercial (A INFORMAÇÃO A
  * **REQ4** - O sistema deve permitir o gerenciamento (Create, Recover, Update e Delete - CRUD) de filmes, assim como acesso a quantidade de bilhetes vendidos para cada um em todo tempo de exibição
 * **REQ5** - O cliente deve escolher o tipo do ingresso (meia-entrada ou inteira) e sua idade deve ser compatível com a faixa etária do filme escolhido, assim como 
 * **REQ6** - O sistema deve disponibilizar um relatório finanças ao final do dia, apresentando tanto a quantidade de vendas de cada filme quanto o total
-* * **REQ7** - O sistema deve contar com diferentes opções de acessibilidade ao cliente, como ingressos especiais para cadeirantes
+* **REQ7** - O sistema deve contar com diferentes opções de acessibilidade ao cliente, como ingressos especiais para cadeirantes
