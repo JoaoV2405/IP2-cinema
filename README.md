@@ -1,10 +1,10 @@
 # IP2_cinema
-# Projeto ABC 
+# Projeto Cinema dos Crias 
 [Nome do projeto ou do grupo - este será seu identificador único até o final da disciplina]
 
 ## Integrantes do grupo 
  * Fulano da Silva Junior - fulano@abc.com
- * Beltrano de Amorim Cardoso - beltrano@abc.com
+ * João Victor Mendonça Martins - mendoncajoao2323@gmail.com
  * Maria das Graças Nascimento - maria@abc.com
  * João da Fonseca - joao@abc.com
 
