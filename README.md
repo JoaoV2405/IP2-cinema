@@ -7,6 +7,8 @@
  * João Victor Mendonça Martins - mendoncajoao2323@gmail.com
  * Lucas Martins Siqueira da Silva - lucasmartinss2003@gmail.com
  * João da Fonseca - joao@abc.com
+ * Daniel Tavares de Lima Marcelino
+danieltavareslima72@gmail.com
 
 ## Descrição geral do projeto 
 Nesta descrição, apresente um texto resumido com a(s) principal(is) funcionalidade(s) do sistema. 
