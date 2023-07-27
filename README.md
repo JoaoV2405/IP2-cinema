@@ -5,7 +5,7 @@
 ## Integrantes do grupo 
  * Fulano da Silva Junior - fulano@abc.com
  * João Victor Mendonça Martins - mendoncajoao2323@gmail.com
- * Maria das Graças Nascimento - maria@abc.com
+ * Lucas Martins Siqueira da Silva - lucasmartinss2003@gmail.com
  * João da Fonseca - joao@abc.com
 
 ## Descrição geral do projeto 
