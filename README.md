@@ -1,31 +1,20 @@
-# IP2_cinema
-# Projeto Cinema dos Crias 
-[Nome do projeto ou do grupo - este será seu identificador único até o final da disciplina]
+# [Projeto CineUrubu]
 
 ## Integrantes do grupo 
- * Fulano da Silva Junior - fulano@abc.com
  * João Victor Mendonça Martins - mendoncajoao2323@gmail.com
  * Lucas Martins Siqueira da Silva - lucasmartinss2003@gmail.com
- * João da Fonseca - joao@abc.com
  * Thiago Diniz Cruz Ribeiro - thiago.diniz_ribeiro@hotmail.com
- * Daniel Tavares de Lima Marcelino
-danieltavareslima72@gmail.com
+ * Daniel Tavares de Lima Marcelino - danieltavareslima72@gmail.com
 
 ## Descrição geral do projeto 
-Nesta descrição, apresente um texto resumido com a(s) principal(is) funcionalidade(s) do sistema. 
-É muito importante que você consiga responder em uma única frase: qual a principal funcionalidade do seu sistema? 
-A partir disso, você deve detalhar as funcionalidades do sistema tentando responder às perguntas:
- 1. Quem vai usar o programa?
- 2. Que serviços são “necessários” (leia-se: importantes para os clientes e usuários)?
- 3. Quais serviços cada usuário pode executar?
+Esse projeto simula um sistema de administração de cinema. O administrador controla quais filmes estão em cartaz, os horários de exibição e as salas disponíveis. O funcionário do cinema é responsável pelas vendas dos ingressos, o cliente escolhe o filme desejado, o horário e o lugar disponível.
 
 ## Requisitos do projeto
-Liste de forma numerada e com identificadores únicos os seus requisitos de projeto. 
-A descrição de cada requisito deve ser breve, porém informativa. 
 Exemplo de requisitos para um sistema de automação comercial (A INFORMAÇÃO ABAIXO É SOMENTE UM EXEMPLO E DEVE SER ALTERADA):
- * **REQ1** - O sistema deve controlar o acesso através de login e senha. Os usuários do sistema serão do tipo administrador e funcionário
- * **REQ2** - O sistema deve permitir a venda de produtos previamente cadastrados e salvá-los como em um histórico de vendas por cliente. Cada venda de produto deve ser associada a um cliente único.
- * **REQ3** - O sistema deve permitir o gerenciamento (Create, Recover, Update e Delete - CRUD) de clientes e produtos e produtos e essa ação pode ser feita por funcionários comuns.
- * **REQ4** - O sistema deve permitir o gerenciamento (CRUD) de funcionários da empresa e essa ação somente poderá ser executada por usuários administradores. Usuários administradores também podem executar todas as funcionalidades que um funcionário comum pode executar.
-
-ATENÇÃO - A sua lista de requisitos não deve ultrapassar mais de 30 itens.
+ * **REQ1** - Os usuários do sistema serão um administrador que controla quais filmes estarão em cartaz e um funcionário responsável pela venda dos ingressos
+ * **REQ2** - O sistema deve armazenar os filmes disponíveis, horários das sessões e quantidade de ingressos disponíveis
+ * **REQ3** - O sistema deve analizar os assentos livres, assim como sua quantidade
+ * **REQ4** - O sistema deve permitir o gerenciamento (Create, Recover, Update e Delete - CRUD) de filmes, assim como acesso a quantidade de bilhetes vendidos para cada um em todo tempo de exibição
+* **REQ5** - O cliente deve escolher o tipo do ingresso (meia-entrada ou inteira) e sua idade deve ser compatível com a faixa etária do filme escolhido, assim como 
+* **REQ6** - O sistema deve disponibilizar um relatório finanças ao final do dia, apresentando tanto a quantidade de vendas de cada filme quanto o total
+* * **REQ7** - O sistema deve contar com diferentes opções de acessibilidade ao cliente, como ingressos especiais para cadeirantes
