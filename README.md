@@ -23,7 +23,9 @@ Esse projeto simula um sistema de administração de cinema. O administrador con
 * **MVP1 - Cadastros** - [REQ1]: Cadastro do cliente;
 * **MVP2 - Cadastros** - [REQ1,REQ5,REQ3]: Cadastro de filmes e sessões pelo admin;
 * **MVP3 - Regras para cadastro do filme**-[REQ1, REQ3]: Filme deve ter título, sinopse, faixa etária, duração e gênero;
-* **MVP4 - Regras para cadastro do sessão**-[REQ3,REQ5]: Sessão deve filme, horário, sala disponível;
+* **MVP4 - Regras para cadastro do sessão**-[REQ3,REQ5]:
+  * Sessão deve ter filme e horário;
+  * Sessões diferentes não podem ter o mesmo filme e horário, mas podem ter filmes iguais e horários diferentes e vice-versa;
 * **MVP5 - Regras para compra do ingresso**-[REQ1,REQ3,REQ5,REQ8]:
   *  A idade do usuário deve ser igual ou maior a faixa etária do filme;
   *  A sessão escolhida deve ter cadeiras disponíveis;
