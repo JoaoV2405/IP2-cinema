@@ -22,12 +22,12 @@ Esse projeto simula um sistema de administração de cinema. O administrador con
 ## Cronograma de MVPs com seleção de requisitos
 * **MVP1 - Cadastros** - [REQ1]: Cadastro do cliente;
 * **MVP2 - Cadastros** - [REQ1,REQ5,REQ3]: Cadastro de filmes e sessões pelo admin;
-* **MVP3 - Regras para cadastro do filme**[REQ1, REQ3] - filme deve ter título, sinopse, faixa etária, duração e gênero;
-* **MVP4 - Regras para cadastro do sessão**[REQ3,REQ5] - sessão deve filme, horário, sala disponível;
-* **MVP5 - Regras para compra do ingresso**[REQ1,REQ3,REQ5,REQ8]
-  *A idade do usuário deve ser igual ou maior a faixa etária do filme;
-  *A sessão escolhida deve ter cadeiras disponíveis;
-  *Horário da sessão deve ser depois que o horário local;
-  * O usuário deve escolher o tipo do ingresso (inteira ou meia-entrada);
-  * O usuário deve escolher se necessita de algum atendimento especial;
- * **MVP6 - Regras para geração de relatório de finanças**[REQ1,REQ7]- Deve-se escolher um filme específico para verificar sua bilheteria ou solicitar o relatório de vendas gerais contendo todos os filmes;
+* **MVP3 - Regras para cadastro do filme**-[REQ1, REQ3]: Filme deve ter título, sinopse, faixa etária, duração e gênero;
+* **MVP4 - Regras para cadastro do sessão**-[REQ3,REQ5]: Sessão deve filme, horário, sala disponível;
+* **MVP5 - Regras para compra do ingresso**-[REQ1,REQ3,REQ5,REQ8]:
+  *  A idade do usuário deve ser igual ou maior a faixa etária do filme;
+  *  A sessão escolhida deve ter cadeiras disponíveis;
+  *  Horário da sessão deve ser depois que o horário local;
+  *  O usuário deve escolher o tipo do ingresso (inteira ou meia-entrada);
+  *  O usuário deve escolher se necessita de algum atendimento especial;
+ * **MVP6 - Regras para geração de relatório de finanças**-[REQ1,REQ7]: Deve-se escolher um filme específico para verificar sua bilheteria ou solicitar o relatório de vendas gerais contendo todos os filmes;
