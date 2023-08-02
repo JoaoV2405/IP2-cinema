@@ -32,4 +32,5 @@ Esse projeto simula um sistema de administração de cinema. O administrador con
   *  Horário da sessão deve ser depois que o horário local;
   *  O usuário deve escolher o tipo do ingresso (inteira ou meia-entrada);
   *  O usuário deve escolher se necessita de algum atendimento especial;
+  *  Se o usuário não necessita de atendimento especial, ele não pode escolher o assento dedicado a pessoas com deficiencia
  * **MVP6 - Regras para geração de relatório de finanças**-[REQ1,REQ7]: Deve-se escolher um filme específico para verificar sua bilheteria ou solicitar o relatório de vendas gerais contendo todos os filmes;
