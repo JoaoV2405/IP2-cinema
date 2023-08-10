@@ -7,7 +7,7 @@
  * Daniel Tavares de Lima Marcelino - danieltavareslima72@gmail.com
 
 ## Descrição geral do projeto 
-Esse projeto simula um sistema de administração de cinema. O administrador controla quais filmes estão em cartaz, os horários de exibição e as salas disponíveis. O funcionário do cinema é responsável pelas vendas dos ingressos, o cliente escolhe o filme desejado, o horário e o lugar disponível
+Esse projeto simula um sistema de administração de cinema. O administrador controla quais filmes estão em cartaz, os horários de exibição e as salas disponíveis. O funcionário do cinema é responsável pelas vendas dos ingressos, o cliente escolhe o filme desejado, o horário e o lugar disponível.
 
 ## Requisitos do projeto
  * **REQ1** - Os usuários do sistema serão um administrador que controla quais filmes estarão em cartaz e um cliente responsável pela compra dos ingressos;
