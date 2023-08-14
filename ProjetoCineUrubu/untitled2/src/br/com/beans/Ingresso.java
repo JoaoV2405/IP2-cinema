@@ -11,7 +11,7 @@ public class Ingresso {
     private Filme filme;
 
     private int id;
-    private double Preco;
+    private double preco;
 
     public Ingresso(Usuario cliente, Sessao sessao, LocalDateTime hora, Assento assento, String tipo, Filme filme){
         this.cliente = cliente;
@@ -50,8 +50,8 @@ public class Ingresso {
         return id;
     }
 
-    public double setPreco(double preco){
-        return Preco;
+    public void setPreco(double preco){
+        this.preco = preco;
     }
 
     
