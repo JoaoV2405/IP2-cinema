@@ -42,7 +42,7 @@ public class RepositorioIngresso {
             }
         }
         //----MANDA A FAMOSA EXCEÇÃO/IMPRIME UMA MENSAGEM SE O INGRESSO NÃO FOR ENCONTRADO
-        throw new IllegalArgumentException("Ingresso não encontrado: " + numero);
+        throw new IllegalArgumentException("O Ingresso: " + numero + "não foi encontrado.");
     }
 
     //----REMOVE O INGRESSO
@@ -60,7 +60,7 @@ public class RepositorioIngresso {
         }
         else{
             //----MANDA A FAMOSA EXCEÇÃO/IMPRIME UMA MENSAGEM SE O INGRESSO NÃO FOR ENCONTRADO
-            throw new IllegalArgumentException("Ingresso não encontrado: " + numero);
+            throw new IllegalArgumentException("O Ingresso: " + numero + "não foi encontrado.");
         }
     }
 }
