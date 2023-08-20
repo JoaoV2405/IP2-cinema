@@ -1,6 +1,6 @@
 package br.com.dados;
 
-import br.com.beans.Usuario;
+import br.com.negocio.beans.Usuario;
 import br.com.exception.UsuarioExisteException;
 
 import java.time.LocalDateTime;
@@ -12,7 +12,13 @@ public class RepositorioUsuario implements IRepositorioUsuario{
         this.usuarios = new ArrayList<>();
     }
 
-
+    private static RepositorioUsuario instance;
+    public static RepositorioUsuario getInstance() {
+        if (instance == null){
+            instance = new RepositorioUsuario();
+        }
+        return instance;
+    }
     public boolean cadastrarUsuario(Usuario usuario)throws UsuarioExisteException {
         boolean resultado = false;
         if (usuario != null) {
@@ -53,6 +59,7 @@ public class RepositorioUsuario implements IRepositorioUsuario{
 
         return usuarioExiste;
     }
+
     @Override
     public ArrayList<Usuario> getUsuarios() {
         return usuarios;

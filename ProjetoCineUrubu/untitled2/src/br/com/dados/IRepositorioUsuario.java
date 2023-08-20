@@ -1,6 +1,6 @@
 package br.com.dados;
 
-import br.com.beans.Usuario;
+import br.com.negocio.beans.Usuario;
 import br.com.exception.UsuarioExisteException;
 
 import java.util.ArrayList;

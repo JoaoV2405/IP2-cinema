@@ -1,6 +1,6 @@
 package br.com.dados;
 
-import br.com.beans.Sessao;
+import br.com.negocio.beans.Sessao;
 import br.com.exception.SessaoOcupadaException;
 
 import java.util.ArrayList;
@@ -9,6 +9,13 @@ public class RepositorioSessao implements IRepositorioSessao{
     private ArrayList<Sessao> sessoes;
     private RepositorioSessao(){
         this.sessoes = new ArrayList<>();
+    }
+    private static RepositorioSessao instance;
+    public static RepositorioSessao getInstance() {
+        if (instance == null){
+            instance = new RepositorioSessao();
+        }
+        return instance;
     }
     @Override
     public void cadastrarSessao(Sessao sessao) throws SessaoOcupadaException {

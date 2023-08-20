@@ -1,6 +1,6 @@
 package br.com.dados;
 
-import br.com.beans.Sessao;
+import br.com.negocio.beans.Sessao;
 import br.com.exception.SessaoOcupadaException;
 
 import java.util.ArrayList;

@@ -1,6 +1,6 @@
 package br.com.dados;
 
-import br.com.beans.Filme;
+import br.com.negocio.beans.Filme;
 import br.com.exception.FilmeExisteException;
 
 import java.time.LocalTime;
@@ -11,8 +11,13 @@ public class RepositorioFilme implements IRepositorioFilme{
     private RepositorioFilme(){
         this.filmes = new ArrayList<>();
     }
-
-
+    private static RepositorioFilme instance;
+    public static RepositorioFilme getInstance() {
+        if (instance == null){
+            instance = new RepositorioFilme();
+        }
+        return instance;
+    }
     @Override
     public boolean cadastrarFilme(Filme filme) throws FilmeExisteException {
         boolean resultado = false;

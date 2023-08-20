@@ -1,5 +1,5 @@
 package br.com.dados;
-import br.com.beans.Filme;
+import br.com.negocio.beans.Filme;
 import br.com.exception.FilmeExisteException;
 
 import java.util.ArrayList;
