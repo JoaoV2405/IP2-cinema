@@ -49,10 +49,10 @@ public class Sessao {
     public ArrayList<String> getAssentoOcupado() {
         return assentoOcupado;
     }
-    public ArrayList<String> setAssentoOcupado(String ass) {
-        ArrayList<String> merda = new ArrayList<>();
-        merda.add(ass);
-        this.assentoOcupado = merda;
+    public ArrayList<String> setAssentoOcupado(String assOcupado) {
+        ArrayList<String> temp = new ArrayList<>();
+        temp.add(assOcupado);
+        this.assentoOcupado = temp;
         return assentoOcupado;
     }
     public static void main(String[] args) {
