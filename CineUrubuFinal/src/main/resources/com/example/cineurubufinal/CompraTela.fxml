@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane layoutY="1.0" prefHeight="433.0" prefWidth="535.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cineurubufinal.CompraTelaController">
+   <children>
+      <ImageView fitHeight="302.0" fitWidth="296.0" layoutX="138.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../CineUrubu.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="336.0" text="Compra concluida com sucesso!!">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="240.0" layoutY="404.0" mnemonicParsing="false" onAction="#trocaHome" text="Continuar" />
+   </children>
+</AnchorPane>

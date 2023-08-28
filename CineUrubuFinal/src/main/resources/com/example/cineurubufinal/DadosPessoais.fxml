@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cineurubufinal.DadosPessoaisController">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="89.0" layoutY="31.0" text="Dados Pessoais" />
+            <TextField fx:id="nome" disable="true" editable="false" layoutX="130.0" layoutY="81.0" promptText="Nome" stylesheets="@cssR.css" />
+            <TextField fx:id="cpf" disable="true" editable="false" layoutX="130.0" layoutY="128.0" promptText="CPF" stylesheets="@cssR.css" />
+            <TextField fx:id="email" disable="true" editable="false" layoutX="130.0" layoutY="174.0" promptText="E-Mail" />
+            <TextField fx:id="data" disable="true" editable="false" layoutX="130.0" layoutY="222.0" promptText="Data de Nascimento" />
+            <Label layoutX="346.0" layoutY="31.0" text="Histórico de Compras" />
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="318.0" layoutY="132.0" prefHeight="17.0" prefWidth="104.0" text="Filme" />
+            <Label alignment="CENTER" layoutX="411.0" layoutY="132.0" prefHeight="17.0" prefWidth="101.0" text="Preco" />
+            <ComboBox fx:id="Ingressos" layoutX="347.0" layoutY="69.0" prefWidth="150.0" />
+            <Label layoutX="533.0" layoutY="132.0" text="Tipo" />
+            <Label fx:id="FilmeIngresso" layoutX="356.0" layoutY="166.0" text="Label" />
+            <Label fx:id="PrecoIngresso" layoutX="448.0" layoutY="166.0" text="Label" />
+            <Label fx:id="TipoIngresso" layoutX="531.0" layoutY="166.0" text="Label" />
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <AnchorPane prefHeight="81.0" prefWidth="600.0" style="-fx-background-color: #390D02;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="81.0" fitWidth="104.0" layoutX="1.0" layoutY="-1.0" onMouseClicked="#trocaHome" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../CineUrubu.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <Label layoutX="241.0" layoutY="29.0" text="Cine Urubu" textFill="WHITE">
+               <font>
+                  <Font name="Verdana Bold" size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

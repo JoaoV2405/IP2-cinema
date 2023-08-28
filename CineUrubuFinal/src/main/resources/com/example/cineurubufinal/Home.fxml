@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cineurubufinal.HomeController">
+   <top>
+      <AnchorPane prefHeight="44.0" prefWidth="600.0" style="-fx-background-color: #390D02;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="68.0" fitWidth="60.0" layoutX="8.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../CineUrubu.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <Label layoutX="236.0" layoutY="23.0" text="Cine Urubu" textFill="WHITE">
+               <font>
+                  <Font name="Verdana Bold" size="17.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="Perfil" fitHeight="39.0" fitWidth="33.0" layoutX="541.0" layoutY="16.0" onMouseClicked="#trocaDadosPessoais" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Group17.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <Label fx:id="login" layoutX="492.0" layoutY="25.0" onMouseClicked="#trocaLogin" onMouseEntered="#hover" onMouseExited="#ahover" text="Entrar" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" layoutX="35.0" layoutY="75.0" prefHeight="159.0" prefWidth="102.0">
+               <children>
+                  <Label alignment="CENTER" text="Barbie" />
+                  <ImageView fx:id="Barbie" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#trocaBarbie" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Barbie.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="158.0" layoutY="75.0" prefHeight="159.0" prefWidth="102.0">
+               <children>
+                  <Label alignment="CENTER" text="OppenHeimer" />
+                  <ImageView fx:id="OpenHeimer" fitHeight="147.0" fitWidth="105.0" onMouseClicked="#trocaOppehiemer" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../oppenheimer.jpg" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="300.0" layoutY="75.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="122.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Besouro Azul" />
+                  <ImageView fx:id="BesouroAzul" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#trocaBesouro" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../besouroAzul.jpg" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="443.0" layoutY="75.0" prefHeight="159.0" prefWidth="102.0">
+               <children>
+                  <Label alignment="CENTER" text="Elementos" />
+                  <ImageView fx:id="Elementos" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#trocaElementos" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Elementos.jpg" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+            </VBox>
+            <Label layoutX="51.0" layoutY="31.0" text="EM CARTAZ" textFill="#e13737">
+               <font>
+                  <Font name="Verdana Bold" size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

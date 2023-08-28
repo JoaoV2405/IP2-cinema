@@ -1,0 +1,7 @@
+#cadastrese:hover{
+    -fx-text-fill: #390D02FF;
+}
+
+#login:hover{
+    -fx-text-fill: "Red";
+}

@@ -1,0 +1,20 @@
+
+#CadastroCaracters{
+    -fx-text-fill: "Red";
+}
+
+#cadastroNumero{
+    -fx-text-fill: "Red";
+}
+
+#cadastroUp{
+    -fx-text-fill: "Red";
+}
+
+#cadastroLow{
+    -fx-text-fill: "Red";
+}
+
+#DTField{
+    -fx-border-radius: 40;
+}
